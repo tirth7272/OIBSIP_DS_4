@@ -1,1 +1,5 @@
 # OIBSIP_DS_4
+
+In this task, I implemented a spam detection system using a dataset of text messages labeled as either 'ham' (not spam) or 'spam.' After loading and cleaning the data, I transformed the text messages into a numerical format using Count Vectorization, which allowed me to effectively represent the text data for analysis. I then split the dataset into training and testing sets, training a Multinomial Naive Bayes classifier to differentiate between spam and non-spam messages.
+
+To evaluate the model's performance, I calculated the accuracy score and generated a classification report detailing precision, recall, and F1-score for each class. Additionally, I visualized the results using a confusion matrix, which provided insights into the model's predictions and errors. This task enhanced my understanding of natural language processing (NLP) techniques and machine learning classification algorithms, demonstrating their application in real-world scenarios like email filtering and text categorization.
